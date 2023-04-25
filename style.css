@@ -1,0 +1,216 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: ;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.mainHeader{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    padding-top: 2%;
+}
+.oneObject{
+width: 25%;
+}
+.oneObject img{
+    margin-right: 20%;
+}
+.twoObject{
+    width:45%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+}
+.twoObject ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.twoObject ul li{
+    width: 100%;
+    list-style: none;
+text-decoration: none;
+
+}
+.twoObject ul li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    color: #656565;
+}
+.threeObject{
+width: 30%;
+justify-content: center;
+margin-top: 20px;
+display: flex;
+flex-direction: row;
+}
+.threeObject h4{
+    margin-top: 2px;
+    margin-left: 40px;
+}
+.mainPage{
+    width: 100%;
+    height: 80vh;
+    background-color: #f3f3f3 ;
+    display: flex;
+    flex-direction: row;
+}
+.mainPageRight{
+    background-color: #888888 ;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.calenderObject {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    height: 20vh;
+    background-color: #888888;
+    align-items: center;
+}
+.calenderObjectWhite{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20vh;
+    background-color: #f3f3f3 ;
+    justify-content: center;
+    align-items: center;
+}
+.calenderObjectWhite1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20vh;
+    background-color: #f3f3f3 ;
+    border-top-left-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.itemCalender {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+}
+.itemCalenderBlack {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    color: #000;
+}
+.pipe {
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 0px;
+    height: 40.19px;
+    border: 1px solid #FFFFFF;
+}
+.pipeBlack {
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 0px;
+    height: 40.19px;
+    border: 1px solid #000;
+}
+.degreeItem{
+    width: 40%;
+}
+.dateItem{
+    width: 135%;
+}
+.percentBetween{
+    margin-top: 55%;
+}
+.percentBetwen{
+    margin-top: 5%;
+}
+
+
+.mainPageLeft {
+    width: 80%;
+    background-color: #888888;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.sectionOne{
+    width: 100%;
+    height: 36vh;
+    display: flex;
+    flex-direction: row;
+}
+.sectionOneObj{
+    width: 60%;
+}
+.sectionOneObj1{
+    width: 40%;
+}
+.boxData {
+    width: 40%;
+    height: 11.5vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.mainData{
+display: flex;
+flex-direction: row;
+}
+.mainData h1{
+    width: 172.47px;
+height: 157.31px;
+font-family: 'Product Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 159.905px;
+line-height: 194px;
+text-align: right;
+color: #FFFFFF;
+}
+.degreeMainData{
+width: 41.23px;
+height: 76.89px;
+font-family: 'Product Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 124.926px;
+line-height: 152px;
+text-align: right;
+
+color: #FFFFFF;
+
+}
+.characterDegree{
+width: 51px;
+height: 80px;
+font-family: 'Product Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 68.7092px;
+line-height: 83px;
+text-align: right;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.sectionTwo{
+    width: 100%;
+    height: 9vh;
+}
+.sectionThree{
+    width: 100%;
+    height: 35vh;
+}
