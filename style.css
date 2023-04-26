@@ -1,12 +1,20 @@
+@font-face {
+    font-family: 'myFont';
+    src: url(./myFonts/YekanBakh-VF.ttf);
+  }
+
 body{
     padding: 0;
     margin: 0;
-    font-family: ;
+    font-family: 'myFont' !important;
 
 }
+
+
 h1,h2,h3,h4,h5,h6,p{
     margin: 0;
     padding: 0;
+    font-family: 'myFont' !important ;
 }
 .mainHeader{
     display: flex;
@@ -128,11 +136,18 @@ flex-direction: row;
 .degreeItem{
     width: 40%;
 }
+.degreeItem h5{
+    font-size: 16px;
+}
+.dateItem h4{
+    font-size: 24px;
+}
 .dateItem{
     width: 135%;
 }
 .percentBetween{
     margin-top: 55%;
+    font-size: 16px;
 }
 .percentBetwen{
     margin-top: 5%;
@@ -160,57 +175,171 @@ flex-direction: row;
 }
 .boxData {
     width: 40%;
-    height: 11.5vh;
+    height: 32.5vh;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 5% auto 0;
 }
-.mainData{
-display: flex;
-flex-direction: row;
+.mainData {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
 }
 .mainData h1{
     width: 172.47px;
 height: 157.31px;
-font-family: 'Product Sans';
+font-family: 'myFont';
 font-style: normal;
-font-weight: 400;
+font-weight: 300;
 font-size: 159.905px;
 line-height: 194px;
 text-align: right;
 color: #FFFFFF;
 }
-.degreeMainData{
-width: 41.23px;
-height: 76.89px;
-font-family: 'Product Sans';
+.degreeMainData {
+    width: 41.23px;
+    height: 76.89px;
+    font-family: 'myFont';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 124.926px;
+    line-height: 152px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-left: 5%;
+}
+.characterDegree {
+    width: 51px;
+    height: 80px;
+    font-family: 'myFont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68.7092px;
+    line-height: 83px;
+    margin-top: 12%;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.detailWeatherBox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 12vh;
+}
+.detailWeatherIcon {
+    width: 35%;
+    display: flex;
+    direction: ltr;
+    flex-direction: column;
+}
+.detailWeatherPipe{
+width: 10%;
+}
+.detailWeatherDesc {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    font-family: 'myFont';
+    justify-content: space-around;
+}
+.detailWeatherDesc h4{
+font-family: 'Yekan Bakh VF';
 font-style: normal;
-font-weight: 700;
-font-size: 124.926px;
-line-height: 152px;
+font-weight: 325;
+font-size: 18px;
+line-height: 119.5%;
 text-align: right;
-
 color: #FFFFFF;
 
 }
-.characterDegree{
-width: 51px;
-height: 80px;
-font-family: 'Product Sans';
+.detailWeatherDesc h3{
+font-family: 'Yekan Bakh VF';
 font-style: normal;
-font-weight: 400;
-font-size: 68.7092px;
-line-height: 83px;
+font-weight: 325;
+font-size: 40px;
+line-height: 119.5%;
 text-align: right;
-text-transform: uppercase;
-
 color: #FFFFFF;
 }
+.detailWeatherDesc h5{
+font-family: 'Yekan Bakh VF';
+font-style: normal;
+font-weight: 325;
+font-size: 18px;
+line-height: 119.5%;
+text-align: right;
+color: #FFFFFF;
+}
+.dflexIcon {
+    display: flex;
+    flex-direction: row;
+    padding: 9px 0 4px 6px;
+}
+
+.dflexIcon h5{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.dflexIcon img{
+    margin-right: 15px;
+}
+.detailWeatherPipe1 {
+    width: 0px;
+    height: 93.17px;
+    margin: 10px auto 0;
+    border: 1.5px solid #FFFFFF;
+}
+
 .sectionTwo{
     width: 100%;
     height: 9vh;
 }
+
+.timeLine {
+    background-image: url(./img/ghorun.png);
+    width: 147px;
+    height: 167px;
+    float: left;
+    margin-top: -5%;
+    background-repeat: no-repeat;
+}
+.dflextime {
+    display: flex;
+    flex-direction: column;
+    margin: 38% auto 0;
+    width: 50%;
+}
+.timelineBG{
+    margin-top: -6%;
+}
+
 .sectionThree{
     width: 100%;
     height: 35vh;
+}
+.timelineDesplay{
+    display: flex;
+    flex-direction: column;
+}
+.timelineObj {
+width: 75px;
+height: 39px;
+}
+.timeOnorOff {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    width: 122%;
+}
+
+.timeOff {
+    margin-left: 22.2%;
 }
