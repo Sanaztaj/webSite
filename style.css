@@ -592,3 +592,26 @@ width: 50%;
 .leftDis{
 width: 50%;
 }
+.sectionFive{
+  width: 100%;
+  background-color:#f3f3f3;
+}
+.sectionFiveBox{
+  width: 80%;
+  height: 30vh;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+.sectionFiveBorder{
+  width: 80%;
+  height: 18px;
+  background: #B8B8B8;
+box-shadow: 0px 22px 68px rgba(0, 0, 0, 0.11);
+}
+.circleBorder{
+  box-sizing: border-box;
+  width: 153px;
+  height: 153px;
+  border: 1.5px solid #888888;
+}
